@@ -1,118 +1,91 @@
-<div align="center">
+<!-- 头部波浪横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Hi%20👋%20I'm%20Hans&fontSize=45&fontColor=ffffff&fontAlignY=35&desc=AI%20Agent%20Developer%20%7C%20Computer%20Vision%20Researcher&descSize=18&descAlignY=55" width="100%"/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,45:00D9F5,100:7B2FF7&height=220&section=header&text=Building%20Agents%20That%20Act&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Observe%20%C2%B7%20Reason%20%C2%B7%20Plan%20%C2%B7%20Execute&descAlignY=58&descSize=18" alt="header" />
-
-<a href="https://github.com/Hans">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=800&color=00D9F5&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=72&lines=Hi%2C+I'm+Hans+%F0%9F%91%8B;Crafting+reliable+AI+agents+for+the+real+world." alt="Typing SVG" />
-</a>
-
-<p>
-  <a href="https://github.com/Hans?tab=followers"><img src="https://img.shields.io/github/followers/Hans?style=for-the-badge&logo=github&label=Followers&color=7B2FF7" alt="followers" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Hans&style=for-the-badge&color=00b8d9&label=PROFILE+VIEWS" alt="profile views" />
-  <a href="mailto:zhdydkdh@163.com"><img src="https://img.shields.io/badge/LET'S_TALK-00F5A0?style=for-the-badge&logo=minutemailer&logoColor=071A2B" alt="email" /></a>
+<!-- 动态打字机 -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+Autonomous+AI+Agents+🤖;Teaching+Machines+to+See+👁️;LLM+%2B+Vision+%3D+The+Future+🚀;Code.+Train.+Deploy.+Repeat." alt="Typing SVG"/>
 </p>
 
-</div>
+<!-- 访客计数 & 徽章 -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hans&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/hans?label=Followers&style=for-the-badge&color=236ad3" alt="followers"/>
+</p>
 
-## `> whoami`
+---
+
+## 🧠 About Me
 
 ```python
-class AgentBuilder:
+class Hans:
     def __init__(self):
         self.name = "Hans"
-        self.role = "AI Agent Developer"
-        self.focus = [
-            "LLM Agents",
-            "Multi-Agent Systems",
-            "Tool Use & MCP",
-            "RAG & Long-term Memory",
-            "Agent Evaluation & Observability",
-        ]
-        self.motto = "Make agents useful, reliable, and a little bit magical."
+        self.research = ["AI Agent Development", "Computer Vision"]
+        self.interests = ["LLM Agents", "Multi-Agent Systems",
+                          "Object Detection", "Vision-Language Models"]
+        self.motto = "Make agents smarter, make vision deeper."
 
-    def current_mission(self):
-        return "Turning reasoning into dependable action."
+    def current_focus(self):
+        return "Building autonomous agents that can see, think and act 🔥"
 ```
 
-我专注于 **Agent 系统的设计与工程落地**：让大模型不只会回答问题，还能理解目标、调用工具、协同工作，并在真实环境中稳定完成任务。
+- 🔭 目前专注于 **AI Agent 架构设计与开发**（LLM Agent / Multi-Agent 系统）
+- 👁️ 深耕 **计算机视觉**：目标检测、图像分割、视觉语言模型（VLM）
+- 🌱 持续探索 **Agent + Vision** 的融合方向，让智能体看得见、想得通、做得对
+- ⚡ 相信 *Agents are the new apps*
 
-> The exciting part is not making an agent *look* intelligent — it is making one **reliably useful**.
+---
 
-## `> current_focus --verbose`
+## 🛠️ Tech Stack
 
-| Direction | What I care about |
-| :--- | :--- |
-| 🧠 **Agent Architecture** | Planning、Reflection、Context Engineering 与可控执行循环 |
-| 🤝 **Multi-Agent Systems** | 角色分工、任务路由、协作协议与冲突消解 |
-| 🔧 **Tool Use / MCP** | 可靠的工具调用、权限边界、失败恢复与人机协同 |
-| 📚 **Memory & RAG** | 长短期记忆、知识检索、上下文压缩与个性化 |
-| 🔬 **Evals & Observability** | 从“看起来能跑”走向可度量、可追踪、可持续优化 |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,cpp,git,linux,docker,vscode&theme=dark" />
+</p>
 
-```mermaid
-flowchart LR
-    U([Goal]) --> P[Perception]
-    P --> R{Reason & Plan}
-    R --> M[(Memory / RAG)]
-    M --> R
-    R --> T[Tool Execution]
-    T --> O[Observe Result]
-    O -->|iterate| R
-    O -->|done| A([Reliable Outcome])
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+</p>
 
-    style U fill:#7B2FF7,color:#fff,stroke:#A970FF
-    style R fill:#071A2B,color:#00F5A0,stroke:#00D9F5
-    style M fill:#102A43,color:#fff,stroke:#7B2FF7
-    style T fill:#003B46,color:#fff,stroke:#00F5A0
-    style A fill:#00F5A0,color:#071A2B,stroke:#00D9F5
-```
+---
 
-## `> tech_stack`
+## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hans&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hans&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+</p>
 
-<!-- 按你的真实技术栈增删图标：https://skillicons.dev -->
-<img src="https://skillicons.dev/icons?i=python,typescript,fastapi,nodejs,pytorch,docker,kubernetes,redis,postgres,git,githubactions,linux&perline=12" alt="tech stack" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=hans&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</p>
 
-<br /><br />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hans&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+</p>
 
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=00F5A0)
-![LangGraph](https://img.shields.io/badge/LangGraph-071A2B?style=for-the-badge&logo=graphql&logoColor=00D9F5)
-![MCP](https://img.shields.io/badge/MCP-7B2FF7?style=for-the-badge&logo=protocols.io&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-111111?style=for-the-badge&logo=openai&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector_DB-003B46?style=for-the-badge&logo=databricks&logoColor=00F5A0)
-![Observability](https://img.shields.io/badge/Agent_Evals-102A43?style=for-the-badge&logo=opentelemetry&logoColor=00D9F5)
+---
 
-</div>
+## 🏆 GitHub Trophies
 
-## `> github_metrics --live`
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=hans&theme=tokyonight&no-frame=true&row=1&column=7" width="95%"/>
+</p>
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hans&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&border_radius=12" alt="GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Hans&theme=tokyonight&hide_border=true&border_radius=12&date_format=%5BY.%5Dn.j" alt="GitHub streak" />
-</div>
+---
 
-<div align="center">
-  <img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=Hans&bg_color=1a1b27&color=70a5fd&line=00d9f5&point=00f5a0&area=true&hide_border=true&radius=12" alt="activity graph" />
-</div>
+## 📫 Contact Me
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Hans/Hans/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
-</div>
+<p align="center">
+  <a href="mailto:zhdydkdh@163.com">
+    <img src="https://img.shields.io/badge/Email-zhdydkdh@163.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
-## `> connect`
+<p align="center">
+  <i>✨ "The best way to predict the future is to build it." ✨</i>
+</p>
 
-<div align="center">
-
-如果你也在探索 **Agent、LLM 应用、MCP 或多智能体系统**，欢迎交流想法、一起构建有趣的东西。
-
-<a href="https://github.com/Hans"><img src="https://img.shields.io/badge/GitHub-071A2B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="mailto:zhdydkdh@163.com"><img src="https://img.shields.io/badge/Email-7B2FF7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<!-- 可继续添加个人网站、知乎、X、LinkedIn 等链接 -->
-
-<br /><br />
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="developer quote" />
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FF7,50:00D9F5,100:00F5A0&height=120&section=footer" alt="footer" />
-
-</div>
+<!-- 底部波浪横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
